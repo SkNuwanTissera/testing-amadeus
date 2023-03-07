@@ -1,23 +1,8 @@
 [package]
-distribution = "2201.0.2"
+org = "nuwant"
+name = "tutorial"
+version = "0.1.0"
+distribution = "2201.3.2"
 
 [build-options]
 observabilityIncluded = true
-
-[[dependency]]
-org = "ballerinax"
-name = "amadeus.flightofferssearch"
-version = "1.0.0"
-repository = "local"
-
-[[dependency]]
-org = "ballerinax"
-name = "amadeus.flightoffersprice"
-version = "1.0.0"
-repository = "local"
-
-[[dependency]]
-org = "ballerinax"
-name = "amadeus.flightcreateorders"
-version = "1.0.0"
-repository = "local"
